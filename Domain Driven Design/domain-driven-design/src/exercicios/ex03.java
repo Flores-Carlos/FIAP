@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class ex01 {
+public class ex03 {
 
 	public static void main(String[] args) {
 		System.out.printf("");
@@ -10,13 +10,13 @@ public class ex01 {
 		
 		float base, altura, area;
 		
-		System.out.printf("Base do retângulo: ");
+		System.out.printf("Base do triângulo: ");
 		base = sc.nextFloat();
 		
-		System.out.printf("Altura do retângulo: ");
+		System.out.printf("Altura do triângulo: ");
 		altura = sc.nextFloat();
 		
-		area = base * altura;
+		area = (base * altura) / 2;
 		
 		System.out.printf("Área: " + area);
 	}
